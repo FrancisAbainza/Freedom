@@ -1,0 +1,52 @@
+.authentication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  margin: 9.375em var(--space-xs) var(--space-xs);
+}
+
+.authentication > img {
+  width: 6.25em;
+}
+
+.authentication > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.authentication > div > h1,
+.authentication > div > h2,
+.authentication > div > a,
+.authentication > div > p {
+  text-align: center;
+}
+
+.google {
+  width: 1.5625em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .authentication {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    margin: 9.375em auto auto;
+  }
+
+  .authentication > img {
+    width: 28.125em;
+  }
+
+  .authentication > div > h1,
+  .authentication > div > h2 {
+    text-align: left;
+  }
+
+  .authentication > div > a,
+  .authentication > div > p,
+  .authentication > div > button {
+    width: 15.625em;
+  }
+}

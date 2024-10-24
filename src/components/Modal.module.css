@@ -1,0 +1,35 @@
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  max-width: 80%;
+  width: 25em;
+  padding: var(--space-s);
+  border-radius: 24px;
+  border: none;
+  outline: none;
+}
+
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.modal > button {
+  position: absolute;
+  right: var(--space-s);
+  display: block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal > button > img {
+  display: block;
+}
+
+.modal > img {
+  align-self: center;
+  width: 3.125em;
+}

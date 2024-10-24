@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50vh;
+  padding: var(--space-xs);
+  cursor: pointer;
+}
+
+.filled {
+  background-color: black;
+  color: white;
+}
+
+.filled:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.outlined {
+  background-color: white;
+  color: black;
+}
+
+.outlined:hover {
+  background-color: rgb(245, 245, 245);
+}
